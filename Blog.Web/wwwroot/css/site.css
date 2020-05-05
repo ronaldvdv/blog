@@ -10,3 +10,32 @@
  */
 h1 {
   color: #2196f3; }
+
+a {
+  color: #2196f3; }
+
+.container main {
+  background: white; }
+
+article {
+  padding: 1em; }
+
+article h1:first-child {
+  color: #2196f3;
+  font-size: 3rem;
+  font-weight: bold; }
+
+article h1 {
+  color: #3f51b5;
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+pre {
+  padding: 1em;
+  padding-left: 2em;
+  border-left: 1em solid #eee;
+  background: #f8f8f8; }
+
+pre .keyword {
+  color: #3f51b5;
+  font-weight: bold; }

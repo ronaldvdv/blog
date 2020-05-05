@@ -1,0 +1,13 @@
+﻿@page "/posts/{key}/"
+@model Blog.Web.Pages.PostModel
+@{
+    ViewData["Title"] = "Post";
+}
+
+    <div class="container">
+        <article>
+            <h1>@Model.Title</h1>
+
+            @Html.Raw(Model.Body)
+        </article>
+    </div>

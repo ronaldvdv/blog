@@ -5,8 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ColorCode.Core" Version="2.0.6" />
+    <PackageReference Include="ColorCode.HTML" Version="2.0.6" />
     <PackageReference Include="Markdig" Version="0.20.0" />
     <PackageReference Include="YamlDotNet" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Highlighting\" />
   </ItemGroup>
 
 </Project>

@@ -4,3 +4,39 @@
 h1 {
     color: $primary;
 }
+
+a { 
+    color: $primary;
+}
+
+.container main {
+    background: white;
+}
+
+article {
+    padding: 1em;
+}
+
+article h1:first-child {
+    color: $primary;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+article h1 {
+    color: $secondary;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+pre {
+    padding: 1em;
+    padding-left: 2em;
+    border-left: 1em solid #eee;
+    background: #f8f8f8;
+}
+
+pre .keyword {
+    color: $indigo;
+    font-weight: bold;
+}

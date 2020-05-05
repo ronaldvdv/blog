@@ -27,6 +27,7 @@ namespace Blog.Shared
                 parser.Consume<StreamStart>();
                 parser.Consume<DocumentStart>();
                 post = _yamlDeserializer.Deserialize<Post>(parser);
+                post.Key = new FileInfo(path).Directory.Name;
                 parser.Consume<DocumentEnd>();
                 post.Markdown = input.ReadToEnd();
             }

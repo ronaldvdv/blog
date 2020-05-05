@@ -1,5 +1,5 @@
 ---
-title: Interactions using dependency injection
+title: Interactions using the mediator pattern
 ---
 # Introduction
 
