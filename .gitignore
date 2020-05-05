@@ -340,3 +340,4 @@ ASALocalRun/
 healthchecksdb
 
 uploads/
+Blog.Web/package-lock.json
