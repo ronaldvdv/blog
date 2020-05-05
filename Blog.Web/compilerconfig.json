@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/bootstrap.css",
+    "inputFile": "node_modules/bootstrap/scss/bootstrap.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/site.css",
+    "inputFile": "wwwroot/src/site.scss"
+  },
+  {
+    "outputFile": "wwwroot/js/bootstrap.js",
+    "inputFile": "node_modules/bootstrap/js/src/index.js"
+  }
+]
